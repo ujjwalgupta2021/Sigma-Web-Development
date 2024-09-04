@@ -44,7 +44,7 @@ nav button {
 }
 .hero {
   font-family: "Martel Sans", sans-serif;
-  height: 100%;
+  height: calc(100% - 62px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +52,7 @@ nav button {
   color: white;
   position: relative;
   gap: 24px;
-  padding: 30px;
+  padding: 0 30px;
 }
 .hero> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
@@ -71,4 +71,8 @@ nav button {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
+}
+.separation{
+  height: 7px;
+  background-color: gray;
 }
